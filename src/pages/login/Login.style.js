@@ -1,32 +1,36 @@
 import styled from 'styled-components';
 
 const LoginDiv = styled.div`
+ margin: auto;
+ background-color:#f8d0d2;
+ height: 25rem;
+ width:30rem;
+ padding-top:3rem;
+ /* border-radius:5%; */
+ opacity:0.8;
  margin-top: 15rem;
- background-color: #1B7F79;
- height: 20rem;
- padding-top:2rem;
- 
 
+ 
 `;
 export const LoginLabel = styled.label`
-color: #00CCC0;
-/* margin-bottom: 2rem; */
+color: black;
+
+
 `;
 export const LoginButton = styled.button`
-background-color: #FF4858;
-border: 2px solid #FF4858;
-padding: 0.5rem;
+background-color: #f2a1a5;
+border: 2px solid #c18084;
+padding: 0.8rem;
+margin:0.8rem;
 border-radius: 5px;
+
+&:hover{
+/* background-color:#f8d0d2; */
+  opacity: 0.7;
+  transform: scale(0.94);
+  cursor: pointer;
+}
 `;
 
 
 export default LoginDiv;
-
-
-// /* Color Theme Swatches in Hex */
-// .Copy-of-Copy-of-Coral-Teal-Gray-1-hex { color: #FF4858; }
-// .Copy-of-Copy-of-Coral-Teal-Gray-2-hex { color: #1B7F79; }
-// .Copy-of-Copy-of-Coral-Teal-Gray-3-hex { color: #00CCC0; }
-// .Copy-of-Copy-of-Coral-Teal-Gray-4-hex { color: #72F2EB; }
-// .Copy-of-Copy-of-Coral-Teal-Gray-5-hex { color: #747F7F; }
-
