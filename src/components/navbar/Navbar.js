@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import yemekLogo from "../../assets/logo.png"
-import NavbarDiv, { NavbarUl } from './Navbar.Style'
+import NavbarDiv, { NavbarUl } from './Navbar.style'
 
 const Navbar = () => {
   return (

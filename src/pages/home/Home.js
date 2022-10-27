@@ -56,9 +56,9 @@ const Home = () => {
       <Navbar />
       <form onSubmit={onSubmitLogin} className="container w-50">
         <fieldset>
-          <legend style={{color:"aqua"}}>Coss AnkaDöner</legend>
+          
           <div className="mb-3">
-            <label htmlFor="disabledTextInput" className="form-label">
+            <label htmlFor="disabledTextInput" className="form-label" style={{fontWeight:"bold"}}>
               Food Name
             </label>
             <input 
@@ -71,7 +71,7 @@ const Home = () => {
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="disabledSelect" className="form-label">
+            <label htmlFor="disabledSelect" className="form-label" style={{fontWeight:"bold"}}>
               Meal Type?
             </label>
             <select onChange={handleChange} id="selectType" className="form-select">
@@ -86,14 +86,14 @@ const Home = () => {
             </select>
           </div>
 
-          <button type="submit" style={{backgroundColor:"#1B7F79",color:"aqua"}} className="btn">
+          <button type="submit" style={{backgroundColor:"#FF8DC7",color:"black" ,fontWeight:"bold"}} className="btn">
             Submit
           </button>
         </fieldset>
       </form>
       {recep.length > 0 && <div className="my-4 d-flex flex-wrap gap-3 align-items-center justify-content-center">
         { recep.map((arr)=><RecipeCars arr={arr}/>)}
-        {/* <RecipeCars recep={recep} setRecep={setRecep} /> */}
+       
       </div>  }
     </div>
   );

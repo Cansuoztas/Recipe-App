@@ -23,7 +23,7 @@ const Details = () => {
           })}
         </ol>
 
-        <div className='tarik'>
+        <div className='label'>
           <h1>{label}</h1>
           <div className="img_style">
             <img src={image} alt="" />

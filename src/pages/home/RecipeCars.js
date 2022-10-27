@@ -14,7 +14,7 @@ const RecipeCars = ({ arr }) => {
           <button
             onClick={() => navigate(`detail`,{state:arr.recipe})}
             href="#"
-            style={{ color: "pink", backgroundColor: "#FFACC7" }}
+            style={{ fontWeight:"bold", color: "black", backgroundColor: "#FF8DC7" }}
             className="btn "
           >
             Detail

@@ -14,6 +14,7 @@ const LoginDiv = styled.div`
 `;
 export const LoginLabel = styled.label`
 color: black;
+font-weight:bold;
 
 
 `;
