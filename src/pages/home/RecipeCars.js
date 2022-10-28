@@ -9,12 +9,12 @@ const RecipeCars = ({ arr }) => {
       <div className="card shadow" style={{ width: "18rem", height: "26rem" }}>
         <img src={arr?.recipe?.image} className="card-img-top" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">{arr?.recipe?.label}</h5>
+          <h5 className="card-title" style={{fontSize:"20px"}}>{arr?.recipe?.label}</h5>
 
           <button
             onClick={() => navigate(`detail`,{state:arr.recipe})}
             href="#"
-            style={{ fontWeight:"bold", color: "black", backgroundColor: "#FF8DC7" }}
+            style={{ fontWeight:"bold", color: "black", backgroundColor: "#7D6E83" }}
             className="btn "
           >
             Detail

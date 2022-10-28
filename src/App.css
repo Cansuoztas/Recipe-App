@@ -6,7 +6,7 @@ a{
 
 .nav:hover{
   transform: scale(0.90); 
-   color: rgba(0, 0, 255, 0.438) !important;
+   color: rgb(51, 3, 70) !important;
 }
 
 .ul_style {
@@ -15,7 +15,7 @@ a{
 }
 
 .img_style {
-  width: 400px;
+  
   margin: 0 auto;
   
 }
@@ -31,15 +31,15 @@ a{
 @media screen and (max-width:1000px) {
 
   .img_style {
-    width: 50%;
+    width: 150%;
 
   }
   h1{
-  font-size: 10px; 
+  font-size: 1px; 
   }
 
   .label {
-    order: -1;
+    order: -2;
  
   }
   .ul_style {

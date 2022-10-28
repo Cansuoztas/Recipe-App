@@ -1,14 +1,18 @@
 import styled from 'styled-components';
 
 const LoginDiv = styled.div`
- margin: auto;
- background-color:#f8d0d2;
- height: 25rem;
- width:30rem;
- padding-top:3rem;
- /* border-radius:5%; */
- opacity:0.8;
- margin-top: 15rem;
+ margin: 15rem auto;
+ background-color:
+
+ #DFD3C3;
+ height: 50vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius:50%;
 
  
 `;
@@ -19,14 +23,14 @@ font-weight:bold;
 
 `;
 export const LoginButton = styled.button`
-background-color: #f2a1a5;
-border: 2px solid #c18084;
-padding: 0.8rem;
-margin:0.8rem;
+background-color: #7D6E83;
+border: 2px solid gray;
+font-weight:bold;
+padding: 0.5rem;
+margin:1rem;
 border-radius: 5px;
 
 &:hover{
-/* background-color:#f8d0d2; */
   opacity: 0.7;
   transform: scale(0.94);
   cursor: pointer;

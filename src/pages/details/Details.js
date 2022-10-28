@@ -1,29 +1,31 @@
-import React from 'react'
-import { useLocation } from 'react-router-dom'
-import Navbar from '../../components/navbar/Navbar'
-import DetailStyle from './Details.style';
+import React from "react";
+import { useLocation } from "react-router-dom";
+import Navbar from "../../components/navbar/Navbar";
 
 const Details = () => {
-
-  const {state} = useLocation();
-  const {
-    label,
-    ingredientLines,
-    image
-  } = state;
+  const { state } = useLocation();
+  const { label, ingredientLines, image } = state;
 
   console.log(ingredientLines);
   return (
     <div>
       <Navbar />
-      <DetailStyle>
+      <div
+        className="container d-flex  justify-content-around 
+        lg-flex-column align-items-center rounded-3 p-4  mt-4 "
+        style={{
+          backgroundColor: "#DFD3C3",
+          boxSizing: "border-box",
+          boxShadow: "3px 3px 10px #7D6E83",
+        }}
+      >
         <ol className="ul_style">
           {ingredientLines.map((item, index) => {
             return <li key={index}>{item}</li>;
           })}
         </ol>
 
-        <div className='label'>
+        <div className="label">
           <h1>{label}</h1>
           <div className="img_style">
             <img src={image} alt="" />
@@ -38,7 +40,7 @@ const Details = () => {
             {state.totalNutrients.CA.unit}
           </li>
           <li>
-            {state.totalNutrients.CHOCDF.label} :{" "}
+            {state.totalNutrients.CHOCDF.label} :
             {Math.round(state.totalNutrients.CHOCDF.quantity)}
             {state.totalNutrients.CHOCDF.unit}
           </li>
@@ -60,9 +62,9 @@ const Details = () => {
             </li>
           ))}
         </div>
-      </DetailStyle>
+      </div>
     </div>
   );
-}
+};
 
-export default Details
+export default Details;

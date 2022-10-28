@@ -10,25 +10,25 @@ const Navbar = () => {
     <NavbarUl >
     <li>
         <NavLink className={({isActive}) => isActive && "nav"}
- to={"/home"} style={{color:"hotpink",fontSize:"1.3rem",textDecoration:"none"}}>
+ to={"/home"} style={{color:"#7D6E83",fontSize:"1.3rem",textDecoration:"none"}}>
              Home
         
         </NavLink></li>
         <li>
         <NavLink  className={({isActive}) => isActive && "nav"}
- to={"/about"} style={{color:"hotpink",fontSize:"1.3rem",textDecoration:"none"}}>
+ to={"/about"} style={{color:"#7D6E83",fontSize:"1.3rem",textDecoration:"none"}}>
              About
         
         </NavLink></li>
         <li>
         <NavLink className={({isActive}) => isActive && "nav"}
- to={"/contact"} style={{color:"hotpink",fontSize:"1.3rem",textDecoration:"none"}}>
+ to={"/contact"} style={{color:"#7D6E83",fontSize:"1.3rem",textDecoration:"none"}}>
         Contact
         
         </NavLink></li>
         <li>
         <NavLink  className={({isActive}) => isActive && "nav"}
- to={"/"} style={{color:"hotpink",fontSize:"1.3rem",textDecoration:"none"}}>
+ to={"/"} style={{color:"#7D6E83",fontSize:"1.3rem",textDecoration:"none"}}>
         Logout
         
         </NavLink></li>

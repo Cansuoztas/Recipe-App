@@ -86,7 +86,7 @@ const Home = () => {
             </select>
           </div>
 
-          <button type="submit" style={{backgroundColor:"#FF8DC7",color:"black" ,fontWeight:"bold"}} className="btn">
+          <button type="submit" style={{backgroundColor:"#7D6E83",color:"black" ,fontWeight:"bold"}} className="btn">
             Submit
           </button>
         </fieldset>
